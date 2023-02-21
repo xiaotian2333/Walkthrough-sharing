@@ -5,7 +5,7 @@
     "client_secret": "15cf39822443bcbc9cbf4d777be35212e0481c35",
     "title": "派蒙的知识宝库",
     "instruction": "欢迎来到派蒙的知识宝库",
-    "server_link": "http://xiaotian.freeee.ml",
+    "server_link": "http://xiaotian.freeee.ml/index.php",
     "filter": {
         "creator": "all",
         "state": "open"
@@ -15,7 +15,8 @@
     },
     "friends": {
         "原博客" : "https://imuncle.github.io/",
-        "机器人文档" : "https://robot.xiaotian.buzz/"
+        "机器人文档" : "https://robot.xiaotian.buzz/",
+        "免费主机" : "https://www.freehost.cc"
     },
     "icons": {
         "Github" : {
