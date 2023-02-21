@@ -25,9 +25,6 @@
         <div class="head">
           <img src="images/avatar.jpg" class="img-responsive img-circle">
         </div>
-        <h3 class="name" id="title"></h3>
-        <p class="name" id="instruction"></p>
-        <p class="name">你是来<text id="changerificwordspanid"></text>知识的吗</p>
       </div>
       <div class="container">
         <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1">
@@ -58,6 +55,7 @@
   <script src = "js/jquery.min.js"></script>
   <script src = "js/typed.js"></script>
   <script src = "js/gitblog.js"></script>
+
   <script>
       $(function(){ 
         $('.head').css("opacity","1");
@@ -66,15 +64,7 @@
         $('.name').css("transform","translateY(0)");
         $('.main_content').css("opacity","1");
         $('.main_content').css("transform","translateY(0)");
-        
-        $("#changerificwordspanid").typed({
-          strings: ["白嫖", "借用", "获取", "存放"],
-          typeSpeed: 100,
-          startDelay: 10,
-          showCursor: true,
-          shuffle: true,
-          loop:true
-        });
       });
     </script>
+
 </html>
