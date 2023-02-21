@@ -14,12 +14,12 @@
         "首页":"./"
     },
     "friends": {
-        "imuncle" : "https://http://blog.xiaotian.buzz/"
+        "原博客" : "https://imuncle.github.io/"
     },
     "icons": {
         "Github" : {
             "icon_src" : "images/github.svg",
-            "href" : "https://github.com/xiaotian2333/Walkthrough-sharing",
+            "href" : "https://github.com/xiaotian2333/",
             "hidden_img" : null,
             "width" : 0
         }
