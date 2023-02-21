@@ -5,7 +5,7 @@
     "client_secret": "15cf39822443bcbc9cbf4d777be35212e0481c35",
     "title": "派蒙的知识宝库",
     "instruction": "欢迎来到派蒙的知识宝库",
-    "server_link": "",
+    "server_link": "http://xiaotian.freeee.ml",
     "filter": {
         "creator": "all",
         "state": "open"
@@ -24,17 +24,18 @@
             "hidden_img" : null,
             "width" : 0
         },
-        "QQ" : {
-            "icon_src" : "images/qq.svg",
-            "href" : "https://p2.a.yximgs.com/upic/2022/07/24/10/BMjAyMjA3MjQxMDU1MzJfMjU4MjAyNjg0Ml83OTk4OTI2NzIwN18yXzY=_B9501e58cc092b85a2a4a577e6cb25787.jpg",
-            "hidden_img" : null,
-            "width" : 0
-        },
-        "Group-chat" : {
+        "QQ群" : {
             "icon_src" : "images/group-chat.svg",
             "href" : "https://jq.qq.com/?k=fjSGhscz",
             "hidden_img" : null,
             "width" : 0
+        },
+        "作者QQ" : {
+            "icon_src" : "images/qq.svg",
+            "href" : "https://p2.a.yximgs.com/upic/2022/07/24/10/BMjAyMjA3MjQxMDU1MzJfMjU4MjAyNjg0Ml83OTk4OTI2NzIwN18yXzY=_B9501e58cc092b85a2a4a577e6cb25787.jpg",
+            "hidden_img" : null,
+            "width" : 0
         }
+
     }
 }
