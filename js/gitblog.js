@@ -433,7 +433,7 @@ var gitblog = function(config) {
             if (comment.login == false) {
                 login.innerHTML = '<a class="gitment-editor-login-link" id="log">登陆</a> GitHub 账号';
             } else {
-                login.innerHTML = '<a class="gitment-editor-login-link" id="log">登出</a>';
+                login.innerHTML = '<a class="gitment-editor-login-link" id="log">退出登陆</a>';
             }
 
             document.getElementById('log').onclick = function() {
