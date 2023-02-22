@@ -431,7 +431,7 @@ var gitblog = function(config) {
 
             var login = document.getElementById('login');
             if (comment.login == false) {
-                login.innerHTML = '<a class="gitment-editor-login-link" id="log">登入</a> with GitHub';
+                login.innerHTML = '<a class="gitment-editor-login-link" id="log">登陆</a> GitHub 账号';
             } else {
                 login.innerHTML = '<a class="gitment-editor-login-link" id="log">登出</a>';
             }
@@ -446,7 +446,7 @@ var gitblog = function(config) {
 
             var editor_content = document.getElementById('write-field');
             if (comment.login == false) {
-                editor_content.innerHTML = '<textarea placeholder="(发表评论)" title="请登入以发表评论" disabled id="comment-input"></textarea>';
+                editor_content.innerHTML = '<textarea placeholder="(发表评论需要登陆 Github 账号)" title="请登录 Github 账号以发表评论" disabled id="comment-input"></textarea>';
                 $('.gitment-editor-submit').attr("disabled", true);
             } else {
                 editor_content.innerHTML = '<textarea placeholder="(发表评论)" id="comment-input"></textarea>';
