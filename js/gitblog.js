@@ -607,6 +607,10 @@ var gitblog = function(config) {
         getTags: function() {
             $.ajax({
                 type: 'get',
+                // 新增请求header，可以直接从github上直接获得渲染过后的html格式信息
+                headers: {
+                    Accept: 'application/vnd.github.squirrel-girl-preview, application/vnd.github.html+json, application/x-www-form-urlencoded',
+                },
                 url: 'https://api.github.com/repos/' + config.name + '/' + config.repo + '/labels',
                 success: function(data) {
                     for (var i in data) {
