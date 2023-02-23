@@ -611,6 +611,7 @@ var gitblog = function(config) {
                 headers: {
                     Accept: 'application/vnd.github.squirrel-girl-preview, application/vnd.github.html+json, application/x-www-form-urlencoded',
                 },
+                //结束
                 url: 'https://api.github.com/repos/' + config.name + '/' + config.repo + '/labels',
                 success: function(data) {
                     for (var i in data) {
